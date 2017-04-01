@@ -102,3 +102,24 @@ width: 78%
 	list-style: none;
 	margin-left: -40px; 
 }
+
+@media only screen and (max-width: 540px) {
+	.feature-content{
+		flex-direction: column;
+		text-align: center;
+	}
+	.feature-icon{
+		width: 100%;
+	}
+	.user-icon{
+		width: 100%;
+		display: flex;
+	    justify-content: center;
+	}
+	.feature-desc{
+		width: 100%;
+	}
+	.user-desc{
+		width: 100%;	
+	}
+}
